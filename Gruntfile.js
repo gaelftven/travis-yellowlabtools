@@ -16,8 +16,8 @@ module.exports = function(grunt) {
 
             twitterOnDesktop: {
                 urls: [
-                    'https://twitter.com',
-                    'https://twitter.com/tos'
+                    'http://pluzz.francetv.fr/',
+                    'http://pluzz.francetv.fr/france2'
                 ],
                 failConditions: [
                     // These are examples, adapt to your needs
@@ -42,8 +42,8 @@ module.exports = function(grunt) {
             // Same as above, but simulating a mobile
             twitterOnMobile: {
                 urls: [
-                    'https://twitter.com',
-                    'https://twitter.com/tos'
+                    'http://m.pluzz.francetv.fr/',
+                    'http://m.pluzz.francetv.fr/france2'
                 ],
                 failConditions: [
                     // These are examples, adapt to your needs
