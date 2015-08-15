@@ -2,7 +2,9 @@
   "name": "travis-yellowlabtools",
   "version": "0.0.0",
   "description": "Use Travis-CI to launch performance checkings with Yellow Lab Tools",
-  "scripts": {},
+  "scripts": {
+    "test": "grunt travis"
+  },
   "keywords": [
     "performance",
     "webperf",
@@ -26,6 +28,7 @@
     }
   ],
   "dependencies": {
+    "grunt-continue": "0.1.0",
     "grunt-yellowlabtools": "~1.0.2",
     "matchdep": "0.3.0"
   }
