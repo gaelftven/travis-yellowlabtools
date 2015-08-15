@@ -2,10 +2,8 @@ sudo: false
 language: node_js
 node_js:
     - "0.12.4"
-before_install:
+install:
     - |-
         sed -i -- 's/API_KEY/'"$API_KEY"'/g' Gruntfile.js
     - "npm install -g grunt-cli"
     - "npm install --no-optional --production"
-install:
-    - "grunt yellowlabtools --force"
