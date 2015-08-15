@@ -21,7 +21,7 @@ module.exports = function(grunt) {
                 ],
                 failConditions: [
                     // These are examples, adapt to your needs
-                    'fail if at least one url has a global score < 80/100',
+                    'fail if at least one url has a global score < 72/100',
                     'fail if at least one url has an imageOptimization score < 30/100',
                     'fail if at least one url has a fileMinification score < 30/100',
                     'fail if at least one url has a jsErrors > 0',
@@ -47,7 +47,7 @@ module.exports = function(grunt) {
                 ],
                 failConditions: [
                     // These are examples, adapt to your needs
-                    'fail if at least one url has a global score < 90/100',
+                    'fail if at least one url has a global score < 80/100',
                     'fail if at least one url has an imageOptimization score < 30/100',
                     'fail if at least one url has a fileMinification score < 30/100',
                     'fail if at least one url has a jsErrors > 0',
