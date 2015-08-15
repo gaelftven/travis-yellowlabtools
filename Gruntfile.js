@@ -73,6 +73,12 @@ module.exports = function(grunt) {
             }
         }
 
-
     });
+    
+    grunt.registerTask('travis', [
+        'continue:on',
+        'yellowlabtools',
+        'continue:off',
+        'continue:fail-on-warning'
+    ]);
 };
